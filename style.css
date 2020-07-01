@@ -1,82 +1,114 @@
-body{
-    font-family: "Poppins",sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
     margin: 0px;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+    font-size: 30px;
 }
 
-.orange-highlight{
-    color: orange;
+.tomato-highlight {
+    color: tomato;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+#header{
+    background-image: url(images/header-bg.png);
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: left; */
+    padding-top: 100px;
+
+
 }
 
-.half-width{
-    width: 40%;
+.half-width {
+    width: 30%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+
+
+.half-width img {
     width: 100%;
 }
-
-.top-banner{
-    background-image: url("images/top-banner.png");
+section#biography-area{
+    background-image: url("images/biography-bg.png");
+    border: 2px solid blue;
+    height: 700px;
     background-repeat: no-repeat;
-}
+    background-size: cover;
+    background-position: left;
+    padding-top: 100px;
 
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
 
-.link-button{
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: 700;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
 }
-.dream-area{
-    display: inline-block;
-    background-image: url("images/dream-bg.png");
-    background-position: right;
+#latest-work-area{
+    background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
-}
-
-h2{
-    font-size: 40px;
-}
-p{
-    color: dimgray;
-}
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 80%;
-    background-color: white;
-
-}
-.experience-area{
-    /* color: red; */
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    /* margin-bottom: 100px; */
-    
-}
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon,tomato);
-    border-image-slice: 1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue,cyan);
-    border-image-slice: 1;
-}
-footer{
+    border: 3px solid yellow;
+    background-position: left;
+    background-size: cover;
     text-align: center;
+    padding-top: 100px;
+
+}
+
+footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 3px solid purple;
+   background-size: cover;
+   text-align: center;
+}
+
+#saying{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#name{
+    font-size: 14px;
+}
+#company{
     font-size: 12px;
 }
+
+.action-button {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, lightSalmon, red);
+}
+
+
+p {
+    color: dimgray;
+    size: 8px;
+}
+
+div#work-images {
+    height: 400px;
+    display: inline-flex;
+}
+
+.latest-work-image img{
+    height: 200px;
+    padding-top: 30px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+
+/* #about-text{
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+} */
