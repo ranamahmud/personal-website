@@ -16,7 +16,6 @@ section {
 }
 #header{
     background-image: url(images/header-bg.png);
-    border: 2px solid red;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: left; */
@@ -38,19 +37,15 @@ section {
 }
 section#biography-area{
     background-image: url("images/biography-bg.png");
-    border: 2px solid blue;
-    height: 700px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    padding-top: 100px;
-
 
 }
 #latest-work-area{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
-    border: 3px solid yellow;
     background-position: left;
     background-size: cover;
     text-align: center;
@@ -62,9 +57,9 @@ footer{
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    border: 3px solid purple;
    background-size: cover;
    text-align: center;
+   padding-bottom: 30px;
 }
 
 #saying{
@@ -106,9 +101,28 @@ div#work-images {
 
 }
 
-/* #about-text{
-    margin-bottom: 30px;
-    font-size: 12px;
-    text-align: center;
-    width: 300px;
-} */
+div a{
+    text-decoration: none;
+}
+#message{
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+#message div {
+    padding-top: 10px;
+    width: 500px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#message div p{
+    color: white !important;
+}
+#message div a{
+    color: white !important;
+}
+#copyright{
+    font-size: 10px;
+}
